@@ -6,7 +6,6 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.ColorRes;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
@@ -111,7 +110,7 @@ public class TintedImageView extends ImageView{
      * 
      * @see #setTint(int)  
      */
-    public void setTintResource(@ColorRes int colorResId) {
+    public void setTintResource(int colorResId) {
         drawableTint = getResources().getColor(colorResId);
         refresh();
     }
