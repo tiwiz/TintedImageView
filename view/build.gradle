@@ -45,12 +45,8 @@ install {
         pom {
             project {
                 packaging 'aar'
-
-                // Add your description here
                 name 'A simple ImageView that lets you decide the tint to apply to the given Drawable'
                 url siteUrl
-
-                // Set your license
                 licenses {
                     license {
                         name 'The MIT License (MIT)'
